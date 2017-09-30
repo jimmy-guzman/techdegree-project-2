@@ -152,9 +152,7 @@ nav a {
   margin-bottom: 3em;
 }
 
-.projects {
-  margin-left: 2%;
-}
+
 
 /*----Contact---*/
 
@@ -264,7 +262,7 @@ footer nav {
   }
   /*---portfolio------------*/
   .projects {
-    margin-left: 2%;
+    margin-left: 4%;
   }
   .col {
     float: left;
@@ -311,7 +309,7 @@ footer nav {
   }
   /*---portfolio------------*/
   .projects {
-    margin-left: 4%;
+    margin-left: 6%;
   }
   .col {
     float: left;
