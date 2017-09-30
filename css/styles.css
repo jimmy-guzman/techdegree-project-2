@@ -106,7 +106,8 @@ nav a {
 .intro {
   text-align: center;
   font-size: 1.2em;
-  margin-bottom: 2.7em;
+  margin-bottom: 4em;
+  margin-top: 3em;
 }
 
 .intro p {
@@ -116,12 +117,12 @@ nav a {
 /*----Skills----*/
 
 .skills {
-  margin-bottom: 3em;
+  margin-bottom: 6em;
 }
 
 .skills ul {
   text-align: center;
-  /*padding: 0 20px;*/
+  margin-top: 3em;
 }
 
 .skills ul li {
@@ -152,8 +153,13 @@ nav a {
   margin-bottom: 3em;
 }
 
+/*.portfolio h2, .skills h2, .contact h2 {
+  border-bottom: 5px solid #C582FF;
+} */
 
-
+.projects {
+  margin-top: 2.5em;
+}
 /*----Contact---*/
 
 .contact {
