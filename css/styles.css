@@ -80,7 +80,7 @@ figcaption {
   margin-bottom: 6px;
 }
 
-nav li {
+header nav li {
   background: #303a40;
 }
 
@@ -184,6 +184,10 @@ footer h3 {
   text-align: center;
 }
 
+footer nav {
+  padding-bottom:5px;
+  padding-top: 5px;
+}
 .float-left {
   float: left;
 }
