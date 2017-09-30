@@ -230,11 +230,12 @@ footer nav {
   .name, nav li {
     display: inline-block;
   }
-  nav li {
+  header nav li {
     background-color: inherit;
     margin-right: 12px;
-    /*adjust according to font size*/
   }
+
+
   /*---Intro------------*/
   .intro-info {
     /*border: 1px solid red;*/
@@ -303,6 +304,10 @@ footer nav {
   }
   .name {
     float: left;
+  }
+
+  header nav {
+    margin-top: 9px;
   }
   /*---portfolio------------*/
   .projects {
