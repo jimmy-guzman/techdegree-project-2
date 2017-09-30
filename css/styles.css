@@ -266,6 +266,16 @@ footer h3 {
     width: 48%;
     margin-right: 2%;
   }
+  /*---footer------------*/
+  footer ul li:not(:last-child) {
+    display: block;
+  }
+  footer ul li:last-child {
+    display: none;
+  }
+  footer nav li {
+    float: left;
+  }
   .clearfix::after {
     content: "";
     display: table;
@@ -298,13 +308,7 @@ footer h3 {
     float: left;
     width: 30%;
   }
-  /*---footer------------*/
-  footer ul li:not(:last-child) {
-    display: block;
-  }
-  footer ul li:last-child {
-    display: none;
-  }
+
   .clearfix::after {
     content: "";
     display: table;
