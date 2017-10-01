@@ -19,11 +19,7 @@ a {
   color: #C582FF;
 }
 
-p {
-  text-align: center;
-}
-
-h2 {
+p, h2 {
   text-align: center;
 }
 
@@ -160,6 +156,7 @@ nav a {
 .projects {
   margin-top: 2.5em;
 }
+
 /*----Contact---*/
 
 .contact {
@@ -189,9 +186,10 @@ footer h3 {
 }
 
 footer nav {
-  padding-bottom:5px;
+  padding-bottom: 5px;
   padding-top: 5px;
 }
+
 .float-left {
   float: left;
 }
@@ -213,14 +211,6 @@ footer nav {
   max-width: 400px;
 }
 
-/*--------clearfix-------*/
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 /* ==========================
     Media Queries
 ========================== */
@@ -238,8 +228,6 @@ footer nav {
     background-color: inherit;
     margin-right: 12px;
   }
-
-
   /*---Intro------------*/
   .intro-info {
     /*border: 1px solid red;*/
@@ -276,6 +264,12 @@ footer nav {
     margin-right: 2%;
   }
   /*---footer------------*/
+  footer nav {
+    padding-right: 5%;
+  }
+  footer div {
+    padding-left: 5%;
+  }
   footer ul li:not(:last-child) {
     display: block;
   }
@@ -285,16 +279,12 @@ footer nav {
   footer nav li {
     float: left;
   }
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 }
 
 @media (min-width: 1024px) {
   .container {
-    width: 90%;
+    width: 80%;
   }
   .intro, .contact p {
     font-size: 1.5em;
@@ -309,7 +299,6 @@ footer nav {
   .name {
     float: left;
   }
-
   header nav {
     margin-top: 9px;
   }
@@ -321,10 +310,18 @@ footer nav {
     float: left;
     width: 30%;
   }
-
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  /*---footer------------*/
+  footer nav {
+    padding-right: 10%;
   }
+  footer div {
+    padding-left: 10%;
+  }
+}
+
+/*--------clearfix-------*/
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
